@@ -64,13 +64,13 @@ Template Name: SolidWize Homepage
 
 				</div> <!-- end #main -->
 <script>
-$(document).ready(function() {
-$('#videomodal').on('show', function () {
-  $('div.modal-body').html('<iframe src="http://player.vimeo.com/video/58140022?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');  
+jQuery(document).ready(function() {
+jQuery('#videomodal').on('show', function () {
+  jQuery('div.modal-body').html('<iframe src="http://player.vimeo.com/video/58140022?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');  
 });
 
-$('#videomodal').on('hide', function () {
-  $('div.modal-body').html('&nbsp;');  
+jQuery('#videomodal').on('hide', function () {
+  jQuery('div.modal-body').html('&nbsp;');  
 });
 
 });
