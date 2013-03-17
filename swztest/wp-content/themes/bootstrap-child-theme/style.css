@@ -1241,3 +1241,76 @@ form.pmpro_form .pmpro_submit span {float:none !important;}
 	width: 100%;
 	margin-bottom: 0px !important;
 }
+
+/*Step Templates*/
+
+.testdiv {
+	width:500px;
+	height:500px;
+	background:lightgrey;
+	padding:50px;
+}
+.indivstep {
+	height:310px;
+	width:207px;
+	border-radius:5px;
+	box-shadow:-1px -1px 1px lightgrey;	
+}
+.stepicon {
+	width:69px;
+	height:69px;
+	margin:auto;
+	position:relative;
+	top:90px;
+}
+
+.iconblue {}
+
+.iconred {	background:url('/SWZTEST/swztest/wp-content/themes/bootstrap-child-theme/images/reddiamond.png');
+}
+
+.icongreen {}
+
+.stepicon img {
+	position:relative;
+	margin-top:50%;
+	top:-12px;
+	
+}
+
+.stepimg {
+	border-radius:5px 5px 0 0;
+	width:100%;
+	margin:0;
+	height:125px;
+}
+
+
+.stepinfo {
+	border-radius:0 0 5px 5px;
+	width:100%;
+	margin:0;
+	height:190px;
+	background:white;
+}
+
+h3.lessonnumber {
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:30px;
+	color:#E08484;
+	font-size:15px;
+	font-family:helvetica;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+h4.lessontitle {
+	margin-top:0px;
+	
+}
+p.lessondesc {
+	color:lightblue;
+	font-size:12px;
+	margin-top:30px;
+} 

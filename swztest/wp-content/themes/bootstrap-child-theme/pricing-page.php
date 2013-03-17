@@ -26,7 +26,7 @@ Template Name: Pricing Page
 									<div class="pricingplanimg">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/intropricing.png">
 									</div>
-									<h2>Free</h2>
+									<h2>Freemoo/h2>
 									<p>
 									Unlimited access to our Intro To SolidWorks and Part Modeling sections. <br><br>
 									Comprehensive excercise files for both sections. <br><br>
